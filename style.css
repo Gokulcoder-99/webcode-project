@@ -61,4 +61,7 @@ body {
     border-radius: 20px;
     color: rgb(231, 229, 235);
   }
+ .highlight {
+    background-color: yellow;
+  }
 
