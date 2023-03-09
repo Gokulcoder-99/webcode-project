@@ -97,7 +97,7 @@ formvalue.addEventListener('submit', async (e) => {
     // Display the results
     const result = document.getElementById('result');
     result.innerHTML = `
-      <p>Top 2 countries: ${country1} (${probability1}), ${country2} (${probability2})</p>
+      <p> name=${name}<br>Top 2 countries: ${country1} (${probability1}), ${country2} (${probability2})</p>
     `;
 
     // Implement search filters and highlight the text
